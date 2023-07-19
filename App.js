@@ -49,6 +49,17 @@ export default function App() {
           <Text style={styles.langText}>{t('Português Brasil')}</Text>
         </TouchableOpacity>
 
+        <TouchableOpacity 
+          onPress={() => changeLanguage('es') }
+          style={[
+            styles.langButton, {
+            borderColor: currentLanguage === 'es' ? '#037CFC' : 'transparent',
+            }
+          ]}
+        >
+          <Text style={styles.langText}>{t('Espanhol')}</Text>
+        </TouchableOpacity>
+
       </View>
 
       <Image
