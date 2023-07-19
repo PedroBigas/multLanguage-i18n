@@ -60,6 +60,7 @@ export default function App() {
           <Text style={styles.langText}>{t('Espanhol')}</Text>
         </TouchableOpacity>
 
+
       </View>
 
       <Image
